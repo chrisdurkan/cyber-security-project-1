@@ -5,7 +5,7 @@ The linux directory contains a collection of bash scripts written to perform var
 
 The diagrams directory contains a collection of network diagrams made throughout the course.
 
-The git directory documents the process of creating this repository.
+The git directory contains screenshots of the process of creating this repository.
 
 The ansible directory contains details on an Azure cloud deployment created during the class. This is the bulk of the work featured here. The README for the Azure deployment follows:
 
@@ -150,4 +150,9 @@ Run the playbooks, and navigate to `http:/[your.VM.IP]:5601/app/kibana` in your 
 
 Alternatively you can SSH into the ELK VM and run `curl localhost:5601/app/kibana` to check the output. If you see HTML you're good!
 
+## Kibana Investigation
+The following links direct to a report created using sample web logs and various testing methods for Kibana
 
+[Exploring Kibana](https://docs.google.com/document/d/1HNOkwgTXfR9kXx-yAsf8sz909_Jk-lcC2rpFMhaEbas/edit?usp=sharing) - Report using sample web logs.
+
+[Kibana Continued](https://docs.google.com/document/d/1EAK55ckuYMPTquu43rAm2xMcWcO8AbB73NGYJcQ0vdA/edit?usp=sharing) - various metric testing and checks on Kibana's metric logging.
